@@ -40,12 +40,18 @@ public class ProccessInfo extends HttpServlet {
 		Connection con;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			String url = "jdbc:mysql://localhost/testJEE";
-			String user = "root";
-			String pw = "12300";
+			
+			String url = "jdbc:mysql://46.252.181.108:3306/bxnsoxaphlnph1s2sl85";
+			String user = "uur3f2ugv5ykn6ck";
+			String pw = "Ejq08b9L87559DJ6HlNb";
+			
+			
+			
+			
+			
 			con = DriverManager.getConnection(url, user, pw);
 			Statement s = con.createStatement();
-			String query = "INSERT INTO people(name) VALUES('" + name + "')";
+			String query = "INSERT INTO people(naame) VALUES('" + name + "')";
 			s.executeUpdate(query);
 		}catch(ClassNotFoundException e) {
 			e.printStackTrace();
