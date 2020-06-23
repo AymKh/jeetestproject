@@ -10,5 +10,4 @@ This application uses an online SQL DB, feel free to use this free [tool](https:
 
 ## License
 Copyright © 2020, AymKh [MIT](LICENSE)
-(choosealicense.com), always go for MIT
 
