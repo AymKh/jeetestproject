@@ -3,6 +3,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/aymkh/java-web-app-101?style=for-the-badge)  
 Simple easy to scale Java Web application  
 
+## Live demo  
+
+app Live here : https://jeeapp-aymkh.herokuapp.com/  
+
 ## DB Management  
 This application uses an online SQL DB, feel free to use this free [tool](https://github.com/AymKh/mini-db-manager) to manage it
 
